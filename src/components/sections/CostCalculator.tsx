@@ -14,7 +14,7 @@ type FoamType = keyof typeof RATES;
 
 export function CostCalculator() {
   const [sqft, setSqft] = useState(1000);
-  const [thickness, setThickness] = useState(RATES["open-cell"].defaultThickness);
+  const [thickness, setThickness] = useState<number>(RATES["open-cell"].defaultThickness);
   const [foamType, setFoamType] = useState<FoamType>("open-cell");
 
   const rates = RATES[foamType];
