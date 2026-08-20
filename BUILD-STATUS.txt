@@ -1,0 +1,106 @@
+sprayfoambank.com — BUILD STATUS
+Generated: 2026-08-20
+Builder: josh-desk-2@mesh
+
+DOMAIN CLASSIFICATION
+Real cost/financing/tax-credit resource hub for spray foam insulation (NOT insurance, NOT a
+literal bank/lender, NOT a speculative-buzzword-premise domain — "bank" here is a
+materials/financing-adjacent concept, not a crypto/fintech buzzword per the corrected test). Real
+real-business-name check (careful, per explicit instruction given "Bank" is a plausible real
+business-naming pattern): web search found no business/project named "Spray Foam Bank" or
+"sprayfoambank.com." A distinct, unrelated app called "Spraybank" (no "foam") exists — an
+application-record-keeping platform for spray operators, different name/different vertical, no
+collision. Real institutional financing (EnerBank USA, Regions Home Improvement Financing) and a
+real "why do banks/lenders scrutinize spray foam" mortgage-caution angle both exist in trade
+coverage, confirming the concept is grounded in reality.
+
+RESEARCH-DRIVEN ANGLE
+DataForSEO (queried directly against api.dataforseo.com) confirmed "spray foam bank" itself is
+null-volume (same pattern as every build tonight), but the surrounding financial-topic cluster
+carries REAL, often substantial demand: "spray foam insulation cost" (6,600/mo), "attic insulation
+cost" (9,900/mo), "spray foam cost calculator" (1,300/mo), "spray foam insulation cost per square
+foot" (2,400/mo), and — largest by far — "energy efficient home improvement credit" (22,200/mo, the
+real federal 25C tax credit). "Bank" is used as a resource-repository metaphor (like "food bank"),
+not a literal financial institution — explicitly disclosed in the footer and Terms of Service.
+
+ROUTES: 24 static routes generated (next build output, confirmed via `pnpm run build`)
+  - / (home)
+  - /about
+  - /topics (index) + 6 pillar pages:
+      spray-foam-insulation-cost (targets the 6,600/mo real cost keyword),
+      cost-calculator (a REAL interactive client-side calculator, targets 1,300/mo),
+      energy-tax-credit (targets the real 22,200/mo federal credit keyword — carefully hedged,
+      no specific current-year dollar figures presented as guaranteed fact), insulation-rebates,
+      financing-options, is-it-worth-it
+  - /blog (index) + 5 posts:
+      spray-foam-vs-fiberglass-10-year-cost, what-qualifies-for-tax-credit,
+      how-to-read-a-quote-like-a-banker, open-cell-vs-closed-cell-real-cost-difference,
+      5-questions-before-financing
+  - /contact
+  - /get-a-quote (soft-conversion primary CTA)
+  - /privacy, /terms
+  - /sitemap.xml, /robots.txt, /_not-found
+
+SIGNATURE FEATURE: a real, working interactive cost calculator (src/components/sections/
+CostCalculator.tsx) — client-side only (static-export compatible), computes a board-foot-based
+estimate range from user-selected foam type, square footage, and thickness, using realistic
+publicly-documented per-board-foot pricing ($0.45-$0.65/bf open-cell, $1.00-$1.50/bf closed-cell).
+Not a fake widget — real math, matching the real 1,300/mo "spray foam cost calculator" search demand.
+
+WORD COUNT: topic-content.ts (6 pillars) + all 5 blog posts = ~5,106 words (verified via `wc -w`)
+of real, accurate, carefully-hedged content. Tax-credit content explicitly avoids stating specific
+current-year dollar caps/percentages as guaranteed fact, directing readers to a tax professional or
+IRS.gov — no fabricated financing-partner names, no invented statistics.
+
+HOMEPAGE: 9 sections — Hero(full-bleed budget-planning photo, scrim >=50% opacity, trust bar) +
+TopicsGrid + WhyThisMatters + ProcessSteps + Stats(inverted dark bronze-brown band) + TrustSignals +
+FAQ + CTA(photo band) + Footer.
+
+IMAGE COUNT: 9 generated (Gemini) + optimized. Total public/images/ = 1.2M, largest file under
+175KB. Filenames: hero-planning-budget.jpg, hero-application-context.jpg, topic-cost-estimate.jpg,
+topic-calculator.jpg, topic-tax-credit.jpg, topic-rebate-savings.jpg, topic-financing.jpg,
+about-credibility.jpg, cta-band.jpg. Real construction/planning photography — explicitly NO piggy
+banks, bank vaults, cash stacks, or finance-cliche color cast (banned in the image-gen brief itself).
+
+STITCH COVERAGE: 4 real AI-generated screens (home, spray-foam-insulation-cost pillar template,
+about, get-a-quote) — zero quota issues, no hand-authored fallback needed. Run DIRECTLY by this
+build process via stitch-mcp.sh again (per manager feedback after the last build — confirmed as the
+preferred approach going forward) — package.json/next.config.ts/tailwind.config.ts/Navbar.tsx were
+never touched by anything but me. Stitch project projects/15499674702973958621, design system
+assets/15337597407768709444. Verified via `ls .stitch-pages/*.html`. Palette: primary amber/bronze
+#A6672E (chosen and sent to Stitch as the seed, so no reconciliation pass needed), secondary
+clay/copper #8B5A2E, accent warm gold #D0A050, sage green #6B7A4C, dark inverted band #4A2E18 — all
+verified warm-earth, zero purple/pink/blue/cyan AND zero finance-cliche colors (corporate blue,
+cash green, piggy-bank pink — explicitly banned in the design brief given the financial topic).
+Typography: Space Grotesk (headline) + Work Sans (body).
+
+GATE NOTE: proactively checked all 4 .stitch-pages files for the decaying-decorative-overlay
+pattern found on the previous build (Stitch's own 10-20%-opacity card-hover overlays, not hero text
+scrims) BEFORE running the gate this time — found and fixed one instance in home.html
+(bg-earth-900/20 -> /50) pre-emptively. Gate passed clean on the first run as a result.
+
+FORMS: contact (4-field) + quote (6-field incl. ZIP + project-type dropdown) — Netlify static
+pattern (data-netlify, honeypot, POST to /__forms.html), AEO traffic_source+landing_url hidden
+fields in both forms and in public/__forms.html decoy. netlify.toml has both webhook notifications
+wired (tenant=josh, site=sprayfoambank.com), no plugin-nextjs.
+
+GATE RESULT: pre-deploy-content-check.sh PASS (exit 0, first run) — 12 own-keyword hits, no banned
+hues, no decaying scrim, 4 stitch screens across 10 routes.
+
+BUILD: pnpm build GREEN (24/24 static pages), static export (output:'export'), next pinned 15.3.9,
+react/react-dom 19.2.0, pnpm-lock.yaml only, pnpm-workspace.yaml correct from the start
+(packages: ["."]) + onlyBuiltDependencies sharp. tel: links = 13, no phone-modal pattern found.
+Placeholder sweep: zero matches. git tree clean, on branch main (git branch -M main run before
+first commit).
+
+CONTACT INFO: canonical only — 844-967-5247 / josh@contractorschoiceagency.com /
+12220 E Riggs Rd, Chandler, AZ 85249. No fabricated testimonials, star ratings, invented lender
+names, or specific tax-credit dollar figures presented as guaranteed current fact — Footer and
+Terms of Service both explicitly state this is NOT a bank/lender/financial institution and content
+is NOT financial or tax advice.
+
+KNOWN GAP (flagged, not blocking): this container has no GITHUB_TOKEN, no gh auth, and no write
+access to /mnt/agent-mesh/github-push-requests. Could not create MCERQUA/sprayfoambank.com on
+GitHub or push. All work is committed to an independent local git repo (NOT the shared
+/workspace/Websites/.git) under josh-desk-2@mesh, on branch main — needs host hand-off for repo
+creation + push, then Netlify hookup.
