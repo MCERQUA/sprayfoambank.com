@@ -1,0 +1,33 @@
+{
+  "source": "DataForSEO keywords_data/google_ads/search_volume/live, US, 2026-08-20 (called api.dataforseo.com directly)",
+  "real_business_check": "Web search confirmed no business exists under the exact name 'Spray Foam Bank' or 'sprayfoambank.com'. A distinct, unrelated business called 'Spraybank' (no 'foam') exists as an application-record-keeping software platform for spray operators (likely agricultural/industrial spray, not construction spray foam) — different name, different vertical, no collision with this domain. Real spray foam FINANCING institutions and programs do exist (EnerBank USA, Regions Home Improvement Financing, manufacturer financing partners), and a real 'why do banks/lenders scrutinize spray foam' mortgage angle exists in trade coverage.",
+  "finding": "'spray foam bank' itself returns null volume (same pattern as every build tonight — the literal domain concept isn't a search term). But the surrounding financial-topic cluster carries REAL, often substantial volume: 'spray foam insulation cost' (6,600/mo, MEDIUM, $5.99 CPC), 'attic insulation cost' (9,900/mo, MEDIUM, $9.94 CPC), 'spray foam cost calculator' (1,300/mo, LOW, $6.36 CPC), 'spray foam insulation cost per square foot' (2,400/mo, HIGH, $5.67 CPC), 'how much does spray foam insulation cost' (1,600/mo, HIGH, $5 CPC), and — largest of all — 'energy efficient home improvement credit' (22,200/mo, LOW, $11.46 CPC), the real federal 25C tax credit that covers insulation materials.",
+  "decision": "The 'bank' framing maps honestly onto a real, well-supported concept: a cost/financing/tax-credit RESOURCE hub for spray foam insulation — not a literal financial institution, not a materials marketplace (no real search support found for that angle), and not an equipment-financing-for-contractors angle (very low volume: 10/mo). 'Bank' reads as 'resource bank' the same way 'blood bank' or 'food bank' uses the word — a repository of the financial information homeowners need, plus real connections to financing/rebate/credit programs and a real interactive cost calculator (matching the 1,300/mo calculator-specific demand).",
+  "primary": [
+    {"keyword": "energy efficient home improvement credit", "volume": 22200, "cpc": 11.46, "competition": "LOW"},
+    {"keyword": "attic insulation cost", "volume": 9900, "cpc": 9.94, "competition": "MEDIUM"},
+    {"keyword": "spray foam insulation cost", "volume": 6600, "cpc": 5.99, "competition": "MEDIUM"},
+    {"keyword": "spray foam insulation cost per square foot", "volume": 2400, "cpc": 5.67, "competition": "HIGH"},
+    {"keyword": "how much does spray foam insulation cost", "volume": 1600, "cpc": 5.00, "competition": "HIGH"},
+    {"keyword": "spray foam cost calculator", "volume": 1300, "cpc": 6.36, "competition": "LOW"},
+    {"keyword": "insulation tax credit", "volume": 880, "cpc": 5.46, "competition": "LOW"},
+    {"keyword": "insulation cost estimate", "volume": 320, "cpc": 6.63, "competition": "LOW"},
+    {"keyword": "spray foam insulation financing", "volume": 20, "cpc": 14.56, "competition": "LOW"},
+    {"keyword": "insulation rebate program", "volume": 10, "cpc": 3.05, "competition": "MEDIUM"},
+    {"keyword": "spray foam mortgage", "volume": 10, "cpc": null, "competition": null},
+    {"keyword": "spray foam equipment financing", "volume": 10, "cpc": null, "competition": "MEDIUM"}
+  ],
+  "null_volume_confirmed": [
+    "spray foam bank",
+    "spray foam financing near me",
+    "zero percent financing spray foam",
+    "spray foam equipment loans",
+    "how to finance spray foam insulation",
+    "insulation financing options",
+    "home improvement loans insulation",
+    "why do banks not like spray foam insulation",
+    "spray foam appraisal problems",
+    "utility rebate insulation"
+  ],
+  "note": "Tax-credit and cost content requires careful hedging — tax law and specific dollar caps change year to year, so content describes the mechanism accurately without over-stating current-year specifics as guaranteed, and directs readers to verify with a tax professional / IRS.gov. No specific dollar figures are presented as certain 2026-current facts without that caveat."
+}
