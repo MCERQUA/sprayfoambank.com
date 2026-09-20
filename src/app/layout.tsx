@@ -7,6 +7,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
+  alternates: { canonical: "/" },
   title: {
     default: `${site.businessName} — Costs, Tax Credits & Financing for Spray Foam Insulation`,
     template: `%s | ${site.businessName}`,
